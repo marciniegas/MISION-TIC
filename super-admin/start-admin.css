@@ -1,0 +1,144 @@
+.text-header{
+    color: #8B0000;
+    font-size: 1.2rem;
+    margin-left: 100px;
+}
+
+.nav-link.text-header{
+    border-radius: 10px;
+    border-color: green;
+    
+}
+
+.nav-link.text-header:hover{
+    background-color: #bc6363;
+    color: white;
+    border-radius: 10px;
+    border-color: #8B0000;
+    
+}
+
+.navbar-nav{
+    align-items: end;
+}
+
+.collapse{
+    flex-grow: initial;
+}
+
+.grid.text-center{
+    padding: 10px;
+    border: 1px solid;
+    background-color: rgba(128, 0, 0, 0.13);
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+
+.seleccionar:focus{
+    box-shadow:   none  ;
+    border: solid #bc6363 2px;
+}
+
+    
+/*PERFIL*/
+#show,#hide {
+	display:none;
+}
+
+div#content {
+  display:none;
+  padding:10px;
+  background-color:#f6f6f6;
+  width:200px;
+  cursor:pointer;
+}
+
+input#show:checked ~ div#content {
+	display:block;
+}
+
+input#hide:checked ~ div#content {
+	display:none;
+}   
+
+
+/* opciones */
+a.nav-link{
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.text-opciones{
+    text-decoration: none;
+    text-align: center;
+    color: #8B0000;
+    font-size: 1.2rem;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.nav-link.text-opciones{
+    border-radius: 10px;
+    border-color: green;
+    
+}
+
+.nav-link.text-opciones:hover{
+    background-color: #bc6363;
+    color: white;
+    border-radius: 10px;
+    border-color: #8B0000;
+    
+}
+
+.lista-opciones{
+    list-style: none ;
+}
+
+
+.show{
+    align-items: center;
+}
+
+.offcanvas.offcanvas-start {
+    top: 0;
+    left: 0;
+    width: 200px;
+    border-right: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);
+    transform: translateX(-100%);
+}
+
+.datos-cuenta{
+    display: none;
+}
+
+.btn-opciones{
+    background-color: transparent;
+    border-color: #8B0000;
+    color: #8B0000;
+}
+
+.grey-bg {  
+    background-color: #F5F7FA;
+}
+/* Buscar estudiante */
+.buscar-estudiante{
+    padding: 2% 10% 0 10%;
+    display: none;
+}   
+
+/* Agregar Estudiante */
+.agregar-estudiante{
+    display: none;
+}
+
+/* info perfil */
+.card{
+    align-items: center;
+    width: 18rem;
+    margin-left: 5rem;
+    display: none;
+}
